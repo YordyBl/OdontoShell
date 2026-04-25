@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Odontopediatría en Dental SHELL — Especialistas en niños. Kit Infantil: diagnóstico, limpieza y flúor. Una experiencia sin miedos. Comas, Lima." />
+  <title>Odontopediatría — Kit Infantil | Dental SHELL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{primary:{DEFAULT:"#0891B2",light:"#22D3EE",dark:"#0E7490"},accent:{DEFAULT:"#059669"},brand:{bg:"#ECFEFF",fg:"#164E63",muted:"#E8F1F6",border:"#A5F3FC","fg-muted":"#4B7A8A"}},fontFamily:{heading:["Figtree","sans-serif"],body:["Noto Sans","sans-serif"]}}}};</script>
+  <link rel="stylesheet" href="../styles/tokens.css" />
+  <link rel="stylesheet" href="../styles/components.css" />
+</head>
+<body class="bg-brand-bg text-brand-fg font-body">
+
+  <a href="#main" class="skip-link">Ir al contenido principal</a>
+
+  <header class="navbar" id="navbar" role="banner">
+    <div class="container navbar__inner">
+      <a href="../index.html" class="navbar__logo"><img src="../Images/logo.png" alt="Dental SHELL" /></a>
+      <nav aria-label="Navegación principal">
+        <ul class="navbar__nav">
+          <li class="nav-dropdown">
+            <button aria-haspopup="true" aria-expanded="false">Servicios <svg class="dropdown-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="dropdown-panel" role="menu">
+              <a href="armonizacion-orofacial.html" role="menuitem"><span class="dp-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><span class="dp-text"><strong>Armonización Orofacial</strong><span>Equilibrio salud y estética</span></span></a>
+              <a href="disenio-de-sonrisa.html" role="menuitem"><span class="dp-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/></svg></span><span class="dp-text"><strong>Diseño de Sonrisa</strong><span>Carillas zirconio</span></span></a>
+              <div class="dropdown-divider"></div>
+              <a href="odontopediatria.html" role="menuitem" style="background:rgba(8,145,178,0.06);"><span class="dp-icon" style="background:var(--color-primary);color:#fff;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></span><span class="dp-text"><strong>Odontopediatría</strong><span>Kit Infantil · Niños sin miedo</span></span></a>
+              <a href="ortodoncia.html" role="menuitem"><span class="dp-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span><span class="dp-text"><strong>Ortodoncia</strong><span>Brackets · Preventiva</span></span></a>
+              <a href="prevencion-limpieza.html" role="menuitem"><span class="dp-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span><span class="dp-text"><strong>Prevención y Limpieza</strong><span>Placa · Sarro · Flúor</span></span></a>
+            </div>
+          </li>
+          <li><a href="../index.html#nosotros">Nosotros</a></li>
+          <li><a href="../index.html#testimonios">Testimonios</a></li>
+          <li><a href="../index.html#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="navbar__actions"><a href="tel:+51940213839" class="btn btn-secondary btn-sm">940 213 839</a><a href="../index.html#contacto" class="btn btn-primary btn-sm">Agendar cita</a></div>
+      <button class="navbar__toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileNav"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobileNav" aria-hidden="true" aria-label="Menú móvil">
+    <div class="mobile-nav__header"><img src="../Images/logo.png" alt="Dental SHELL" style="height:40px;width:auto;" /><button id="menuClose" aria-label="Cerrar menú" style="background:none;border:none;cursor:pointer;color:var(--color-fg);min-height:44px;min-width:44px;display:flex;align-items:center;justify-content:center;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>
+    <ul class="mobile-nav__links"><li><button class="mobile-submenu-trigger">Servicios <svg class="dropdown-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button><div class="mobile-submenu"><div class="mobile-submenu-inner"><a href="armonizacion-orofacial.html">Armonización Orofacial</a><a href="disenio-de-sonrisa.html">Diseño de Sonrisa</a><a href="odontopediatria.html">Odontopediatría</a><a href="ortodoncia.html">Ortodoncia</a><a href="prevencion-limpieza.html">Prevención y Limpieza</a></div></div></li><li><a href="../index.html#nosotros">Nosotros</a></li></ul>
+    <div style="padding-top:var(--space-8);display:flex;flex-direction:column;gap:var(--space-3);"><a href="tel:+51940213839" class="btn btn-secondary">940 213 839</a><a href="../index.html#contacto" class="btn btn-primary">Agendar cita</a></div>
+  </nav>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="service-hero" aria-label="Odontopediatría">
+      <img src="../Images/jarmoluk-dentist-428645_1920.jpg" alt="" aria-hidden="true" class="service-hero__img" style="opacity:0.38;" />
+      <div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(22,78,99,0.92) 45%,rgba(22,78,99,0.55) 100%);"></div>
+      <div class="container service-hero__content">
+        <a href="../index.html" class="service-hero__back"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>Volver al inicio</a>
+        <span class="section-label" style="background:rgba(8,145,178,0.18);color:var(--color-primary-l);">Cuidado infantil</span>
+        <h1>Odontopediatría<br/><span style="color:var(--color-primary-l);">Sin miedos, sin llanto.</span></h1>
+        <p>Profesionales empáticos especializados en niños para que su primera visita al dentista sea una experiencia positiva y sin trauma.</p>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem;">
+          <a href="tel:+51940213839" class="btn btn-primary btn-lg">Ver Kit Infantil</a>
+          <a href="https://wa.me/51940213839?text=Hola%2C%20quiero%20info%20sobre%20el%20Kit%20Infantil" class="btn btn-lg" style="background:rgba(255,255,255,0.12);color:#fff;border-color:rgba(255,255,255,0.3);" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- KIT INFANTIL HIGHLIGHT -->
+    <section class="section" aria-label="Kit Infantil">
+      <div class="container">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;" class="two-col">
+          <div data-reveal>
+            <span class="section-label">Promoción vigente</span>
+            <h2>Kit Infantil — Todo en una sola cita</h2>
+            <div class="divider"></div>
+            <p style="color:var(--color-fg-muted);line-height:1.75;margin-bottom:1.5rem;">El kit más completo para empezar el cuidado bucal de tu hijo desde pequeño. Prevenimos problemas futuros con un enfoque lúdico y sin presiones.</p>
+            <div style="display:grid;grid-template-columns:1fr;gap:1rem;margin-bottom:2rem;">
+              <div style="display:flex;gap:1rem;padding:1rem;border-radius:var(--radius-md);background:var(--color-surface);border:1px solid var(--color-border);">
+                <div style="width:2.5rem;height:2.5rem;border-radius:50%;background:rgba(8,145,178,0.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary-d)" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div>
+                <div><strong style="display:block;font-size:0.9375rem;">Diagnóstico completo</strong><span style="font-size:0.875rem;color:var(--color-fg-muted);">Evaluación integral de la salud bucal del niño.</span></div>
+              </div>
+              <div style="display:flex;gap:1rem;padding:1rem;border-radius:var(--radius-md);background:var(--color-surface);border:1px solid var(--color-border);">
+                <div style="width:2.5rem;height:2.5rem;border-radius:50%;background:rgba(8,145,178,0.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary-d)" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+                <div><strong style="display:block;font-size:0.9375rem;">Limpieza dental</strong><span style="font-size:0.875rem;color:var(--color-fg-muted);">Eliminamos placa bacteriana y sarro para proteger sus encías.</span></div>
+              </div>
+              <div style="display:flex;gap:1rem;padding:1rem;border-radius:var(--radius-md);background:var(--color-surface);border:1px solid var(--color-border);">
+                <div style="width:2.5rem;height:2.5rem;border-radius:50%;background:rgba(8,145,178,0.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary-d)" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+                <div><strong style="display:block;font-size:0.9375rem;">Aplicación de flúor</strong><span style="font-size:0.875rem;color:var(--color-fg-muted);">Refuerzo del esmalte dental para prevenir caries.</span></div>
+              </div>
+            </div>
+            <a href="tel:+51940213839" class="btn btn-primary">Agendar Kit Infantil</a>
+          </div>
+          <div data-reveal="scale" style="transition-delay:0.12s;">
+            <img src="../Images/526083101_18063632933243222_8213741257943306061_n.jpg" alt="Niño con el Kit Infantil de Dental SHELL — diagnóstico, limpieza y flúor" style="width:100%;border-radius:var(--radius-xl);box-shadow:var(--shadow-card-hover);object-fit:cover;" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band" aria-label="Agendar para niños">
+      <div class="container" data-reveal="fade">
+        <h2>La salud bucal empieza en la infancia</h2>
+        <p>Nuestros odontopediatras están capacitados para que la visita al dentista sea una experiencia divertida y sin miedo.</p>
+        <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
+          <a href="tel:+51940213839" class="btn btn-white btn-lg">940 213 839</a>
+          <a href="https://wa.me/51940213839?text=Hola%2C%20quiero%20agendar%20el%20Kit%20Infantil" class="btn btn-lg" style="background:rgba(255,255,255,0.15);color:white;border:2px solid rgba(255,255,255,0.40);" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:2rem;padding-bottom:var(--space-8);border-bottom:1px solid rgba(255,255,255,0.10);">
+        <div class="footer__logo"><img src="../Images/logo.png" alt="Dental SHELL" /><span class="footer__logo-text">Dental SHELL</span></div>
+        <div style="display:flex;gap:1rem;"><a href="tel:+51940213839" class="btn btn-secondary btn-sm" style="color:rgba(255,255,255,0.75);border-color:rgba(255,255,255,0.3);">940 213 839</a><a href="../index.html#contacto" class="btn btn-primary btn-sm">Agendar cita</a></div>
+      </div>
+      <div class="footer__bottom"><span>© <span id="year"></span> Dental SHELL · Urb. El Retablo, Comas, Lima</span><a href="../index.html" style="color:rgba(255,255,255,0.65);">Volver al inicio</a></div>
+    </div>
+  </footer>
+  <script src="../scripts/main.js"></script>
+</body>
+</html>

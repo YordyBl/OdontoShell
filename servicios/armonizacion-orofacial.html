@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Armonización Orofacial en Dental SHELL — Combina salud dental con estética facial para resultados equilibrados y naturales. Comas, Lima." />
+  <title>Armonización Orofacial | Dental SHELL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{primary:{DEFAULT:"#0891B2",light:"#22D3EE",dark:"#0E7490"},accent:{DEFAULT:"#059669"},brand:{bg:"#ECFEFF",fg:"#164E63",muted:"#E8F1F6",border:"#A5F3FC","fg-muted":"#4B7A8A"}},fontFamily:{heading:["Figtree","sans-serif"],body:["Noto Sans","sans-serif"]}}}};</script>
+  <link rel="stylesheet" href="../styles/tokens.css" />
+  <link rel="stylesheet" href="../styles/components.css" />
+</head>
+<body class="bg-brand-bg text-brand-fg font-body">
+
+  <a href="#main" class="skip-link">Ir al contenido principal</a>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="container navbar__inner">
+      <a href="../index.html" class="navbar__logo" aria-label="Dental SHELL — Inicio">
+        <img src="../Images/logo.png" alt="Dental SHELL" />
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="navbar__nav">
+          <li class="nav-dropdown">
+            <button aria-haspopup="true" aria-expanded="false">
+              Servicios
+              <svg class="dropdown-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="dropdown-panel" role="menu">
+              <a href="armonizacion-orofacial.html" role="menuitem" style="background:rgba(8,145,178,0.06);">
+                <span class="dp-icon" style="background:var(--color-primary);color:#fff;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+                <span class="dp-text"><strong>Armonización Orofacial</strong><span>Equilibrio entre salud y estética</span></span>
+              </a>
+              <a href="disenio-de-sonrisa.html" role="menuitem"><span class="dp-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></span><span class="dp-text"><strong>Diseño de Sonrisa</strong><span>Carillas de zirconio · Smile Design</span></span></a>
+              <div class="dropdown-divider"></div>
+              <a href="odontopediatria.html" role="menuitem"><span class="dp-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></span><span class="dp-text"><strong>Odontopediatría</strong><span>Kit Infantil · Niños sin miedo</span></span></a>
+              <a href="ortodoncia.html" role="menuitem"><span class="dp-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span><span class="dp-text"><strong>Ortodoncia</strong><span>Brackets · Preventiva</span></span></a>
+              <a href="prevencion-limpieza.html" role="menuitem"><span class="dp-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span><span class="dp-text"><strong>Prevención y Limpieza</strong><span>Placa · Sarro · Flúor</span></span></a>
+            </div>
+          </li>
+          <li><a href="../index.html#nosotros">Nosotros</a></li>
+          <li><a href="../index.html#testimonios">Testimonios</a></li>
+          <li><a href="../index.html#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="navbar__actions">
+        <a href="tel:+51940213839" class="btn btn-secondary btn-sm">940 213 839</a>
+        <a href="../index.html#contacto" class="btn btn-primary btn-sm">Agendar cita</a>
+      </div>
+      <button class="navbar__toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileNav">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile nav -->
+  <nav class="mobile-nav" id="mobileNav" aria-label="Menú móvil" aria-hidden="true">
+    <div class="mobile-nav__header">
+      <img src="../Images/logo.png" alt="Dental SHELL" style="height:40px;width:auto;" />
+      <button id="menuClose" aria-label="Cerrar menú" style="background:none;border:none;cursor:pointer;color:var(--color-fg);min-height:44px;min-width:44px;display:flex;align-items:center;justify-content:center;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <ul class="mobile-nav__links">
+      <li><button class="mobile-submenu-trigger">Servicios <svg class="dropdown-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mobile-submenu"><div class="mobile-submenu-inner">
+          <a href="armonizacion-orofacial.html">Armonización Orofacial</a>
+          <a href="disenio-de-sonrisa.html">Diseño de Sonrisa</a>
+          <a href="odontopediatria.html">Odontopediatría</a>
+          <a href="ortodoncia.html">Ortodoncia</a>
+          <a href="prevencion-limpieza.html">Prevención y Limpieza</a>
+        </div></div>
+      </li>
+      <li><a href="../index.html#nosotros">Nosotros</a></li>
+      <li><a href="../index.html#testimonios">Testimonios</a></li>
+    </ul>
+    <div style="padding-top:var(--space-8);display:flex;flex-direction:column;gap:var(--space-3);">
+      <a href="tel:+51940213839" class="btn btn-secondary">940 213 839</a>
+      <a href="../index.html#contacto" class="btn btn-primary">Agendar cita</a>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="service-hero" aria-label="Armonización Orofacial">
+      <img src="../Images/500806531_1031634091932530_4693070167421138286_n.jpg" alt="" aria-hidden="true" class="service-hero__img" />
+      <div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(22,78,99,0.92) 50%,rgba(22,78,99,0.55) 100%);"></div>
+      <div class="container service-hero__content">
+        <a href="../index.html" class="service-hero__back">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          Volver al inicio
+        </a>
+        <span class="section-label" style="background:rgba(8,145,178,0.18);color:var(--color-primary-l);">Especialidad destacada</span>
+        <h1>Armonización Orofacial</h1>
+        <p>El tratamiento que combina salud dental con estética facial para resultados equilibrados y naturales. La especialidad estrella de Dental SHELL.</p>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem;">
+          <a href="tel:+51940213839" class="btn btn-primary btn-lg">Agendar consulta gratis</a>
+          <a href="https://wa.me/51940213839" class="btn btn-lg" style="background:rgba(255,255,255,0.12);color:#fff;border-color:rgba(255,255,255,0.3);" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUÉ ES -->
+    <section class="section" aria-label="Qué es la armonización orofacial">
+      <div class="container" style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;" class="two-col">
+        <div data-reveal>
+          <span class="section-label">¿Qué es?</span>
+          <h2>Salud y estética en perfecta armonía</h2>
+          <div class="divider"></div>
+          <p style="color:var(--color-fg-muted);line-height:1.75;margin-bottom:1.5rem;">La armonización orofacial es un enfoque integral que va más allá del cuidado dental tradicional. Combina tratamientos odontológicos con técnicas de estética facial para lograr un equilibrio natural entre los dientes, las encías y el contorno del rostro.</p>
+          <p style="color:var(--color-fg-muted);line-height:1.75;">En Dental SHELL somos especialistas en este campo. Utilizamos tecnología de vanguardia para analizar cada caso de forma individualizada y diseñar un plan de tratamiento que mejore tanto la función masticatoria como la apariencia estética, sin resultados artificiales.</p>
+        </div>
+        <div data-reveal="scale" style="transition-delay:0.12s">
+          <img src="../Images/geralt-dentist-8729628_1920.jpg" alt="Resultado de armonización orofacial en Dental SHELL" style="width:100%;border-radius:var(--radius-xl);box-shadow:var(--shadow-card-hover);object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section class="section-sm" style="background:var(--color-surface);" aria-label="Beneficios">
+      <div class="container">
+        <div class="section-heading center" data-reveal>
+          <h2>¿Para quién es este tratamiento?</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="grid-3" role="list">
+          <div class="card service-card" data-reveal role="listitem">
+            <div class="service-card__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            <h3>Mejorar la estética facial</h3>
+            <p>Si buscás una apariencia más armónica y natural sin recurrir a cambios radicales en tu rostro.</p>
+          </div>
+          <div class="card service-card" data-reveal style="transition-delay:0.08s" role="listitem">
+            <div class="service-card__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3>Tratar problemas funcionales</h3>
+            <p>Para quienes tienen dificultades al masticar, bruxismo o alteraciones en la articulación temporomandibular.</p>
+          </div>
+          <div class="card service-card" data-reveal style="transition-delay:0.16s" role="listitem">
+            <div class="service-card__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/></svg></div>
+            <h3>Complementar sonrisa y rostro</h3>
+            <p>Ideal para quienes ya tienen un diseño de sonrisa y quieren que todo el rostro acompañe ese resultado.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section class="section" aria-label="Proceso de tratamiento">
+      <div class="container" style="max-width:760px;">
+        <div class="section-heading center" data-reveal>
+          <span class="section-label">Proceso</span>
+          <h2>¿Cómo es el tratamiento?</h2>
+          <div class="divider"></div>
+        </div>
+        <ol style="list-style:none;display:flex;flex-direction:column;gap:2rem;" data-reveal>
+          <li style="display:flex;gap:1.5rem;align-items:flex-start;">
+            <div style="width:2.5rem;height:2.5rem;border-radius:50%;background:var(--color-primary);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--font-heading);font-weight:800;font-size:1rem;flex-shrink:0;">1</div>
+            <div><strong style="display:block;font-size:1rem;margin-bottom:0.25rem;">Evaluación completa</strong><span style="color:var(--color-fg-muted);font-size:0.9375rem;">Analizamos tu caso con tecnología de diagnóstico avanzada — dientes, encías, articulación y contorno facial.</span></div>
+          </li>
+          <li style="display:flex;gap:1.5rem;align-items:flex-start;">
+            <div style="width:2.5rem;height:2.5rem;border-radius:50%;background:var(--color-primary);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--font-heading);font-weight:800;font-size:1rem;flex-shrink:0;">2</div>
+            <div><strong style="display:block;font-size:1rem;margin-bottom:0.25rem;">Plan personalizado</strong><span style="color:var(--color-fg-muted);font-size:0.9375rem;">Diseñamos un plan de tratamiento a medida, explicándote cada paso, tiempos y costos sin sorpresas.</span></div>
+          </li>
+          <li style="display:flex;gap:1.5rem;align-items:flex-start;">
+            <div style="width:2.5rem;height:2.5rem;border-radius:50%;background:var(--color-primary);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--font-heading);font-weight:800;font-size:1rem;flex-shrink:0;">3</div>
+            <div><strong style="display:block;font-size:1rem;margin-bottom:0.25rem;">Tratamiento integral</strong><span style="color:var(--color-fg-muted);font-size:0.9375rem;">Combinamos procedimientos dentales y estéticos de manera coordinada, minimizando el tiempo total de tratamiento.</span></div>
+          </li>
+          <li style="display:flex;gap:1.5rem;align-items:flex-start;">
+            <div style="width:2.5rem;height:2.5rem;border-radius:50%;background:var(--color-primary);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--font-heading);font-weight:800;font-size:1rem;flex-shrink:0;">4</div>
+            <div><strong style="display:block;font-size:1rem;margin-bottom:0.25rem;">Seguimiento y mantenimiento</strong><span style="color:var(--color-fg-muted);font-size:0.9375rem;">Te acompañamos en el post-tratamiento para asegurarnos de que los resultados sean duraderos y naturales.</span></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band" aria-label="Agendar consulta">
+      <div class="container" data-reveal="fade">
+        <h2>¿Querés saber si sos candidato?</h2>
+        <p>Tu primera evaluación de armonización orofacial es gratuita y sin compromiso.</p>
+        <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
+          <a href="tel:+51940213839" class="btn btn-white btn-lg">940 213 839</a>
+          <a href="https://wa.me/51940213839?text=Hola%20Dental%20SHELL%2C%20quiero%20info%20sobre%20armonizaci%C3%B3n%20orofacial" class="btn btn-lg" style="background:rgba(255,255,255,0.15);color:white;border:2px solid rgba(255,255,255,0.40);" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:2rem;padding-bottom:var(--space-8);border-bottom:1px solid rgba(255,255,255,0.10);">
+        <div class="footer__logo">
+          <img src="../Images/logo.png" alt="Dental SHELL" />
+          <span class="footer__logo-text">Dental SHELL</span>
+        </div>
+        <div style="display:flex;gap:1rem;">
+          <a href="tel:+51940213839" class="btn btn-secondary btn-sm" style="color:rgba(255,255,255,0.75);border-color:rgba(255,255,255,0.3);">940 213 839</a>
+          <a href="../index.html#contacto" class="btn btn-primary btn-sm">Agendar cita</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> Dental SHELL · Urb. El Retablo, Comas, Lima</span>
+        <a href="../index.html" style="color:rgba(255,255,255,0.65);">Volver al inicio</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../scripts/main.js"></script>
+</body>
+</html>
